@@ -1,0 +1,1421 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+/* .....HomePagestyle....... */
+.homePage {
+    height: 100vh;
+    background-image: url('homeBg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.TOPsOfFirstPage {
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-around;
+}
+
+nav button {
+    border: none;
+    background-color: transparent;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.navs button:hover {
+    color: brown;
+    transition: 0.4s;
+    cursor: none;
+}
+
+nav {
+    display: flex;
+    gap: 5%;
+}
+
+.loginTopRightBar {
+    color: white;
+}
+
+.loginTopRightBar button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homePageMain {
+    padding-top: 8%;
+    word-spacing: 5px;
+}
+
+.homePageMain h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.homePageMain b {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#homePageShopNowButton {
+    text-align: center;
+}
+
+.buttonShopNow {
+    border: none;
+    background-color: white;
+    margin-top: 5%;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.buttonShopNow:hover {
+    border: 7px dotted;
+    font-family: fantasy;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.buttonShopNowIcon {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 3%;
+    color: white;
+}
+
+/* ........Featured Categories...... */
+.featuredCatHead {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6%;
+}
+
+.featuredCat {
+    display: flex;
+    padding: 20px;
+}
+
+.featuredCat h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.featuredCat p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 6%;
+    word-spacing: 3px;
+}
+
+.featuredCatParent {
+    height: 100vh;
+}
+
+/* ..........New Collections........... */
+
+.CollectionImages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 0;
+    row-gap: 0;
+}
+
+.CollectionImagesMain {
+    width: 90%;
+    margin: auto;
+}
+
+.ClkImg1 {
+    width: 15rem;
+    height: 15rem;
+    background-image: url("clk01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.309);
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.ClkImg2 {
+    width: 15rem;
+    height: 15rem;
+    background-image: url("clk02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.309);
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.ClkImg3 {
+    width: 15rem;
+    height: 15rem;
+    background-image: url("clk03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.309);
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.ClkImg4 {
+    width: 15rem;
+    height: 15rem;
+    background-image: url("clk04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.309);
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.ClkImg5 {
+    width: 15rem;
+    height: 15rem;
+    background-image: url("clk5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.309);
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.ClkImg6 {
+    width: 15rem;
+    height: 15rem;
+    background-image: url("clk6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.309);
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.ClkImg1 h3 {
+    margin: 3%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 97, 97);
+    border-radius: 10px;
+    width: 90px;
+}
+
+.ClkImg2 h3 {
+    margin: 3%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 97, 97);
+    border-radius: 10px;
+    width: 90px;
+}
+
+.ClkImg3 h3 {
+    margin: 3%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 97, 97);
+    border-radius: 10px;
+    width: 90px;
+}
+
+.ClkImg4 h3 {
+    margin: 3%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 97, 97);
+    border-radius: 10px;
+    width: 90px;
+}
+
+.ClkImg5 h3 {
+    margin: 3%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 97, 97);
+    border-radius: 10px;
+    width: 90px;
+}
+
+.ClkImg6 h3 {
+    margin: 3%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 97, 97);
+    border-radius: 10px;
+    width: 90px;
+}
+
+.ClkImg1 b {
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 2%;
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.ClkImg2 b {
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 2%;
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.ClkImg3 b {
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 2%;
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.ClkImg4 b {
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 2%;
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.ClkImg5 b {
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 2%;
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.ClkImg6 b {
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 2%;
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.collectionPage {
+    width: 100%;
+    text-align: center;
+}
+
+.CollectionImages .ClkImg1:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.CollectionImages .ClkImg2:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.CollectionImages .ClkImg3:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.CollectionImages .ClkImg4:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.CollectionImages .ClkImg5:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.CollectionImages .ClkImg6:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.collectionPage h2 {
+    margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.collectionPage button {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.32);
+    padding: 10px;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.collectionPage button:hover {
+    color: black;
+    border-color: black;
+    transition: 0.5s;
+}
+
+/* ........Reccommend Page.......... */
+.recommendPage {
+    width: 100%;
+    height: 230vh;
+}
+
+.recommendPage h2 {
+    text-align: center;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recommendPage h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 1%;
+}
+
+.rem123 {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.remPageImgsWrap {
+    margin-top: 3%;
+}
+
+.remPageImgsWrap img {
+    border: 2px solid rgba(0, 0, 0, 0.416);
+    border-radius: 5px;
+}
+
+/* .......What sets Us apart...... */
+.setApartPage {
+    height: 100vh;
+}
+
+.setApartPage h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line1and2 {
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+
+.setApartPage .text {
+    width: 30%;
+}
+
+.line3and4 {
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+    bottom: 250px;
+}
+
+.apartImg {
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.apartImg img {
+    height: 400px;
+    width: 35%;
+    border-radius: 100px;
+}
+
+.apartTexts {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apartTexts li {
+    font-weight: bolder;
+    padding-bottom: 3%;
+}
+
+.setApartDetailsBond {
+    position: relative;
+    bottom: 50px;
+}
+
+/* .............Questions Page..........  */
+.questionPage {
+    position: relative;
+    top: 50px;
+    padding-bottom: 10%;
+    width: 100%;
+}
+
+.questionPageHead {
+    text-align: center;
+}
+
+.questionPageHead h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+}
+
+.questionPageHead h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2%;
+}
+
+.questionPageHead button {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.wrapperFAQ {
+    display: grid;
+    gap: 5%;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 40px;
+}
+
+.question {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    transition: 0.4s;
+    outline: none;
+}
+
+.question:hover {
+    background-color: #f1f7f5;
+    transition: 0.4s;
+}
+
+.faq {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.faq p {
+    color: rgb(0, 0, 0, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    background-color: #f1f7f5;
+
+
+}
+
+.answer {
+    display: none;
+
+}
+
+.faq p:hover {
+    background-color: white;
+}
+
+.faq button {
+    width: 100%;
+    height: 50px;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactButton:hover {
+    background-color: white;
+    color: black;
+    border: 7px dotted black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+/* ........Footer....... */
+footer {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    align-content: center;
+    height: 70vh;
+    background-image: url('homeBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 3%;
+}
+
+footer h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.navsResponse {
+    display: none;
+}
+
+.responseNavBarIcon {
+    display: none;
+}
+
+.homePageMain br {
+    display: none;
+}
+
+.setApartPageDetailsResponse {
+    display: none;
+}
+
+/* ........................................Response.................................. */
+
+
+@media (max-width: 400px) {
+    .navs {
+        display: none;
+    }
+
+    .navsResponse {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 80%;
+        padding-top: 10px;
+    }
+
+    .navsResponse.navsResponseOpen {
+        display: flex;
+    }
+
+    .navsResponse button {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: bold;
+        border: 2px solid rgba(0, 0, 0, 0.385);
+        border-left: none;
+        border-right: none;
+        border-collapse: separate;
+    }
+
+    .navsResponse button:hover {
+        background-color: rgba(0, 0, 0, 0.099);
+        transition: 0.4s;
+        transform: scale(1.2);
+    }
+
+    .responseNavBarIcon {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fa-couch {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .fa-bars {
+        font-size: 30px;
+    }
+
+    .fa-x {
+        font-size: 30px;
+    }
+
+    .loginTopRightBar {
+        font-size: 30px;
+    }
+
+    .loginTopRightBar button {
+        font-size: 30px;
+    }
+
+    .homePageMain {
+        text-align: center;
+        align-items: center;
+    }
+
+    .homePage {
+        padding-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .homePageMain br {
+        display: block;
+    }
+
+    .featuredCat {
+        display: block;
+    }
+
+    .featuredCat h3 {
+        color: rgba(0, 0, 0, 0.467);
+    }
+
+    .featuredCatImg img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .collectionPage {
+        position: relative;
+        bottom: 200px;
+    }
+
+    .CollectionImages {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .CollectionImagesResponse {
+        width: 85%;
+
+    }
+
+    .recommendPage {
+        position: relative;
+        top: 50px;
+    }
+
+    .recommendPage h4 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .rem123 {
+        display: block;
+    }
+
+    .rem123 img {
+        width: 76%;
+        height: 400px;
+    }
+
+    .setApartPage {
+        position: relative;
+        bottom: 20rem;
+        height: 120vh;
+    }
+
+    .setApartDetailsBond {
+        display: none;
+    }
+
+    .setApartPageDetailsResponse {
+        display: block;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0.386);
+    }
+
+    .textResponse {
+        display: block;
+    }
+
+    .line1and2 {
+        display: block;
+    }
+
+    .apartTexts {
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+
+    .setApartPageDetailsResponse .text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .apartImg {
+        position: relative;
+        bottom: 0;
+    }
+
+    .apartImg img {
+        border-radius: 0;
+        width: 80%;
+    }
+
+    .line3and4 {
+        position: relative;
+        bottom: 0;
+        display: block;
+    }
+
+    .questionPage {
+        position: relative;
+        top: -40rem;
+    }
+
+    .wrapperFAQ {
+        display: block;
+    }
+
+    footer {
+        margin-top: -30rem;
+    }
+}
+
+/* ....................401 to 470.................... */
+@media(min-width: 401px) and (max-width: 470px) {
+    .navs {
+        display: none;
+    }
+
+    .navsResponse {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 80%;
+        padding-top: 10px;
+    }
+
+    .navsResponse.navsResponseOpen {
+        display: flex;
+    }
+
+    .navsResponse button {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: bold;
+        border: 2px solid rgba(0, 0, 0, 0.385);
+        border-left: none;
+        border-right: none;
+        border-collapse: separate;
+    }
+
+    .navsResponse button:hover {
+        background-color: rgba(0, 0, 0, 0.099);
+        transition: 0.4s;
+        transform: scale(1.2);
+    }
+
+    .responseNavBarIcon {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fa-couch {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .fa-bars {
+        font-size: 30px;
+    }
+
+    .fa-x {
+        font-size: 30px;
+    }
+
+    .loginTopRightBar {
+        font-size: 30px;
+    }
+
+    .loginTopRightBar button {
+        font-size: 30px;
+    }
+
+    .homePageMain {
+        text-align: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .homePageMain br {
+        display: block;
+    }
+
+    .featuredCat {
+        display: block;
+    }
+
+    .featuredCat h3 {
+        color: rgba(0, 0, 0, 0.467);
+    }
+
+    .featuredCatImg img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .featuredCatParent {
+        margin-bottom: 0;
+    }
+
+    .collectionPage {
+        position: relative;
+        bottom: 200px;
+    }
+
+    .CollectionImages {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .CollectionImagesResponse {
+        width: 350px;
+    }
+
+    .recommendPage {
+        position: relative;
+        top: 50px;
+    }
+
+    .recommendPage h4 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .rem123 {
+        display: block;
+    }
+
+    .rem123 img {
+        width: 76%;
+        height: 400px;
+    }
+
+    .setApartPage {
+        position: relative;
+        bottom: 140px;
+        height: 120vh;
+    }
+
+    .setApartDetailsBond {
+        display: none;
+    }
+
+    .setApartPageDetailsResponse {
+        display: block;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0.386);
+    }
+
+    .textResponse {
+        display: block;
+    }
+
+    .line1and2 {
+        display: block;
+    }
+
+    .apartTexts {
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+
+    .setApartPageDetailsResponse .text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .apartImg {
+        position: relative;
+        bottom: 0;
+    }
+
+    .apartImg img {
+        border-radius: 0;
+        width: 80%;
+    }
+
+    .line3and4 {
+        position: relative;
+        bottom: 0;
+        display: block;
+    }
+
+    .questionPage {
+        margin-top: -500px;
+        padding-bottom: 150px;
+    }
+
+    .questionPageHead h2 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .wrapperFAQ {
+        display: block;
+    }
+}
+
+/* ..............471 to 700................. */
+@media(min-width: 471px) and (max-width: 700px) {
+    .navs {
+        display: none;
+    }
+
+    .navsResponse {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 80%;
+        padding-top: 10px;
+    }
+
+    .navsResponse.navsResponseOpen {
+        display: flex;
+    }
+
+    .navsResponse button {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: bold;
+        border: 2px solid rgba(0, 0, 0, 0.385);
+        border-left: none;
+        border-right: none;
+        border-collapse: separate;
+    }
+
+    .navsResponse button:hover {
+        background-color: rgba(0, 0, 0, 0.099);
+        transition: 0.4s;
+        transform: scale(1.2);
+    }
+
+    .responseNavBarIcon {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fa-couch {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .fa-bars {
+        font-size: 30px;
+    }
+
+    .fa-x {
+        font-size: 30px;
+    }
+
+    .loginTopRightBar {
+        font-size: 30px;
+    }
+
+    .loginTopRightBar button {
+        font-size: 30px;
+    }
+
+    .homePageMain {
+        text-align: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .homePageMain br {
+        display: block;
+    }
+
+    .featuredCat {
+        display: block;
+    }
+
+    .featuredCat h3 {
+        color: rgba(0, 0, 0, 0.467);
+    }
+
+    .featuredCatImg img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .collectionPage {
+        position: relative;
+        bottom: 200px;
+    }
+
+    .CollectionImages {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .CollectionImagesResponse {
+        width: 85%;
+    }
+
+    .recommendPage {
+        position: relative;
+        top: 50px;
+    }
+
+    .recommendPage h4 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .rem123 {
+        display: block;
+    }
+
+    .rem123 img {
+        width: 76%;
+        height: 400px;
+    }
+
+    .setApartPage {
+        position: relative;
+        bottom: 450px;
+        height: 120vh;
+    }
+
+    .setApartDetailsBond {
+        display: none;
+    }
+
+    .setApartPageDetailsResponse {
+        display: block;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0.386);
+    }
+
+    .textResponse {
+        display: block;
+    }
+
+    .line1and2 {
+        display: block;
+    }
+
+    .apartTexts {
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+
+    .setApartPageDetailsResponse .text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .apartImg {
+        position: relative;
+        bottom: 0;
+    }
+
+    .apartImg img {
+        border-radius: 0;
+        width: 80%;
+    }
+
+    .line3and4 {
+        position: relative;
+        bottom: 0;
+        display: block;
+    }
+
+    .questionPage {
+        margin-top: -900px;
+        padding-bottom: 150px;
+    }
+
+    .questionPageHead h2 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .wrapperFAQ {
+        display: block;
+    }
+}
+
+/* ........................701 to 1200......................... */
+@media(min-width: 701px) and (max-width: 1000px) {
+    .navs {
+        display: none;
+    }
+
+    .navsResponse {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 80%;
+        padding-top: 10px;
+    }
+
+    .navsResponse.navsResponseOpen {
+        display: flex;
+    }
+
+    .navsResponse button {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: bold;
+        border: 2px solid rgba(0, 0, 0, 0.385);
+        border-left: none;
+        border-right: none;
+        border-collapse: separate;
+    }
+
+    .navsResponse button:hover {
+        background-color: rgba(0, 0, 0, 0.099);
+        transition: 0.4s;
+        transform: scale(1.2);
+    }
+
+    .responseNavBarIcon {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fa-couch {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .fa-bars {
+        font-size: 30px;
+    }
+
+    .fa-x {
+        font-size: 30px;
+    }
+
+    .loginTopRightBar {
+        font-size: 30px;
+    }
+
+    .loginTopRightBar button {
+        font-size: 30px;
+    }
+
+    .homePageMain {
+        text-align: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .homePageMain br {
+        display: block;
+    }
+
+    .featuredCatParent {
+        height: 100vh;
+    }
+
+    .featuredCat {
+        display: block;
+    }
+
+    .featuredCat h3 {
+        color: rgba(0, 0, 0, 0.467);
+    }
+
+    .featuredCatImg img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .collectionPage h2 {
+        margin-top: 7%;
+    }
+
+    .CollectionImages {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .CollectionImagesResponse {
+        width: 85%;
+        height: c;
+    }
+
+    .recommendPage {
+        position: relative;
+        top: 50px;
+    }
+
+    .recommendPage h4 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .rem123 {
+        display: block;
+    }
+
+    .rem123 img {
+        width: 76%;
+        height: 400px;
+    }
+
+    .setApartPage {
+        position: relative;
+        bottom: 450px;
+        height: 120vh;
+    }
+
+    .setApartDetailsBond {
+        display: none;
+    }
+
+    .setApartPageDetailsResponse {
+        display: block;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0.386);
+    }
+
+    .textResponse {
+        display: block;
+    }
+
+    .line1and2 {
+        display: block;
+    }
+
+    .apartTexts {
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+
+    .setApartPageDetailsResponse .text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .apartImg {
+        position: relative;
+        bottom: 0;
+    }
+
+    .apartImg img {
+        border-radius: 0;
+        width: 80%;
+    }
+
+    .line3and4 {
+        position: relative;
+        bottom: 0;
+        display: block;
+    }
+
+    .questionPage {
+        margin-top: -50%;
+        padding-bottom: 150px;
+    }
+
+    .questionPageHead h2 {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 10%;
+    }
+
+    .wrapperFAQ {
+        display: block;
+    }
+}
+
+/* .................Animation.................. */
+
+.TOPsOfFirstPage {
+    animation: slideIn 2s ease-in;
+    opacity: 1;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.homePageMain{
+    animation: scaleUp 1s ease-in-out;
+    transform: 1;
+}
+@keyframes scaleUp{
+0%{
+    transform: scale(0);
+}
+100%{
+    transform: scale(1);
+}
+}
+.navsResponse{
+    animation: bounce 0.5s ease;
+    transform: 1;
+}
+@keyframes bounce{
+0%{
+    transform: scale(0);
+}
+100%{
+    transform: scale(1);
+}
+}
