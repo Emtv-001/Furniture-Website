@@ -712,7 +712,7 @@ footer h4 {
 
     .collectionPage {
         position: relative;
-        bottom: 200px;
+        bottom: 5rem;
     }
 
     .CollectionImages {
@@ -745,8 +745,6 @@ footer h4 {
     }
 
     .setApartPage {
-        position: relative;
-        bottom: 20rem;
         height: 120vh;
     }
 
@@ -796,8 +794,8 @@ footer h4 {
     }
 
     .questionPage {
-        position: relative;
-        top: -40rem;
+        height: 150vh;
+
     }
 
     .wrapperFAQ {
@@ -903,7 +901,7 @@ footer h4 {
 
     .collectionPage {
         position: relative;
-        bottom: 200px;
+        bottom: 5rem;
     }
 
     .CollectionImages {
@@ -936,7 +934,7 @@ footer h4 {
 
     .setApartPage {
         position: relative;
-        bottom: 140px;
+        bottom: 7rem;
         height: 120vh;
     }
 
@@ -986,7 +984,7 @@ footer h4 {
     }
 
     .questionPage {
-        margin-top: -500px;
+margin-top: -50%;
         padding-bottom: 150px;
     }
 
@@ -1395,27 +1393,33 @@ footer h4 {
         opacity: 1;
     }
 }
-.homePageMain{
+
+.homePageMain {
     animation: scaleUp 1s ease-in-out;
     transform: 1;
 }
-@keyframes scaleUp{
-0%{
-    transform: scale(0);
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
-100%{
-    transform: scale(1);
-}
-}
-.navsResponse{
+
+.navsResponse {
     animation: bounce 0.5s ease;
     transform: 1;
 }
-@keyframes bounce{
-0%{
-    transform: scale(0);
-}
-100%{
-    transform: scale(1);
-}
+
+@keyframes bounce {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
